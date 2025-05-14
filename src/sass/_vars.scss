@@ -1,0 +1,178 @@
+// ============ Sizes (Sass variables) ============
+$medium: 1rem;
+$large: 1.2rem;
+$x-large: 1.5rem;
+$xx-large: 2rem;
+$x3-large: 40px;
+$x4-large: 50px;
+$small: 0.8rem;
+$x-small: 0.6rem;
+$close-icon: 20px;
+
+// ============ Breakpoints ============
+$phone: 700px;
+$tablet: 1300px;
+
+:root {
+  // ============ Theme Colors ============
+  // Backgrounds
+  --theme-bg: #f7ede0;
+  --nav-bg: #f7ede065;
+  --dash-theme-bg: rgb(235, 222, 206);
+  
+  // Text
+  --theme-text: #000000;
+  
+  // UI Elements
+  --border-color: rgba(27, 27, 27, 0.733);
+  --scroll-top: rgba(197, 179, 155, 0.918);
+  
+  // Components
+  --menu-bg: #ffffff;
+  --log-in-bg: #f7f7f7;
+  --border-bg: #a5a5a571;
+  --input-bg: rgba(223, 223, 223, 0.411);
+  --message-bg: #e7d7c281;
+  --menu-item-bg: #f0e7db;
+  --confirm-form-bg: #ffffff21;
+  
+  // Loading
+  --loading-bg: #ffffff50;
+  --loading-lin-bg: #ddd;
+  --loading-lin-color : #805ad5;
+  
+  // Chips
+  --chips-bg: #5f5f5f;
+  --chips-green-border: rgba(1, 155, 1, 0.658);
+  --chips-green-body: #02640265;
+  --chips-green-text: #005f20bb;
+  --chips-gray-border: #3a3a3af5;
+  --chips-gray-body: #49494994;
+  --chips-gray-text: #1b1b1bbb;
+  
+  // Icons & Links
+  --icon-theme-color: #fbd38d;
+  --link-color: #0350f7;
+
+  // ============ Fixed Colors ============
+  --blue: #81e6d9;
+  --blue-1: #5fada4;
+  --blue-2: #98cfc944;
+  --error-message-body: rgba(231, 63, 63, 0.719);
+  --error-message-border: rgba(230, 48, 48, 0.829);
+  --success-message-body: rgba(47, 177, 36, 0.555);
+  --success-message-border: rgba(90, 241, 60, 0.719);
+  --confirm-form-red-body: rgba(231, 63, 63, 0.719);
+  --confirm-form-red-border: rgba(230, 48, 48, 0.829);
+  --confirm-form-green-body: rgba(47, 177, 36, 0.555);
+  --confirm-form-green-border: rgba(53, 172, 29, 0.719);
+  --green: green;
+  --red: rgba(255, 0, 0, 0.733);
+  --black: black;
+  --shadow-color: rgb(116, 116, 116);
+
+    // ============ Sizes ============
+    $medium: medium;
+    $large: large;
+    $x-large: x-large;
+    $xx-large: xx-large;
+    $x3-large: 40px;
+    $x4-large: 50px;
+    $small: small;
+    $x-small: x-small;
+    $close-icon: 20px;
+}
+
+[data-theme="dark"] {
+  // Backgrounds
+  --theme-bg: #202020;
+  --nav-bg: #2020208c;
+  --dash-theme-bg: #2c2c2c;
+  
+  // Text
+  --theme-text: #ffffff;
+  
+  // UI Elements
+  --border-color: rgba(168, 168, 168, 0.548);
+  --scroll-top: #1212137c;
+  
+  // Components
+  --menu-bg: #2d3748;
+  --log-in-bg: #202225;
+  --border-bg: #88888885;
+  --input-bg: #1a1919ec;
+  --message-bg: #313134;
+  --menu-item-bg: #2a303b;
+  --confirm-form-bg: #2d37482c;
+  
+  // Loading
+  --loading-bg: #343a4462;
+  --loading-lin-bg: #4d4d4d;
+  
+  // Chips
+  --chips-bg: #333333;
+  --chips-green-border: #019b0136;
+  --chips-green-body: #0264022d;
+  --chips-green-text: #11da54bb;
+  --chips-gray-border: #525252f5;
+  --chips-gray-body: #41414194;
+  --chips-gray-text: #a1a1a1bb;
+  
+  // Icons & Links
+  --icon-theme-color: #805ad5;
+  --link-color: #ad0a64;
+  
+  // Blue variants
+  --blue-1: #81e6d9;
+  --blue-2: #bcf0e944;
+
+  --shadow-color: rgb(0, 0, 0);
+}
+
+// Sass Variables Mapping
+$theme-bg: var(--theme-bg);
+$nav-bg: var(--nav-bg);
+$dash-theme-bg: var(--dash-theme-bg);
+$theme-text: var(--theme-text);
+$border-color: var(--border-color);
+$menu-bg: var(--menu-bg);
+$log-in-bg: var(--log-in-bg);
+$loading-bg: var(--loading-bg);
+$loading-lin-color: var(--loading-lin-color);
+$loading-lin-bg: var(--loading-lin-bg);
+$confirm-form-bg: var(--confirm-form-bg);
+$border-bg: var(--border-bg);
+$input-bg: var(--input-bg);
+$message-bg: var(--message-bg);
+$menu-item-bg: var(--menu-item-bg);
+$chips-bg: var(--chips-bg);
+$chips-green-border: var(--chips-green-border);
+$chips-green-body: var(--chips-green-body);
+$chips-green-text: var(--chips-green-text);
+$chips-gray-border: var(--chips-gray-border);
+$chips-gray-body: var(--chips-gray-body);
+$chips-gray-text: var(--chips-gray-text);
+$icon-theme-color: var(--icon-theme-color);
+$link-color: var(--link-color);
+$scroll-top: var(--scroll-top);
+$blue: var(--blue);
+$blue-1: var(--blue-1);
+$blue-2: var(--blue-2);
+$error-message-body: var(--error-message-body);
+$error-message-border: var(--error-message-border);
+$success-message-body: var(--success-message-body);
+$success-message-border: var(--success-message-border);
+$confirm-form-red-body: var(--confirm-form-red-body);
+$confirm-form-red-border: var(--confirm-form-red-border);
+$confirm-form-green-body: var(--confirm-form-green-body);
+$confirm-form-green-border: var(--confirm-form-green-border);
+$green: var(--green);
+$red: var(--red);
+$black: var(--black);
+$shadow-color: var(--shadow-color);
+
+
+
+  // // ============ Breakpoints ============
+  // $phone: 700px;
+  // $tablet: 1300px;
